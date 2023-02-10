@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-card-container{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding:3rem 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:gray;
+}
+.card-container{
+    width: 20%;
+    border-radius: 6px;
+    outline: 0.5rem solid white;
+    background-color: white;
+
+}
+
+.inner-text-item1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem;
+}
+.card-image-container{
+    margin: 0.5rem 0.5rem;
+     padding: 2rem;
+     background-color:whitesmoke;
+}
+.card-image-container:hover{
+    box-shadow: 0px 0px 15px 0px yellowgreen;
+    transform: scale(1.05);
+    border-radius: 1rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius:50rem;
+    border: 5px solid yellow;
+}
+div#nav-main-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+#nav-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    background-color: black;
+    padding: 0.3rem 0.3rem; 
+}
+.nav-item{
+   padding: 0.5rem 1.5rem; 
+   margin:0.3rem 0.5rem;
+   font-size: 1.7rem;
+   border-radius: 0.5rem;
+   color: white;
+}
+.nav-item:hover{
+    background-color: white;
+    color: black;
+}
+
+#logo-contanier{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+
+}
+.logo-item{
+    width:5rem;
+    height: 5rem;
+    font-size: 4.5rem;
+    text-align: center;
+
+}
+.letter-item{
+    width: 3.55rem;
+    padding: 0;
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+}
+.custom-des{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border:12px solid black;
+    margin-top: 1rem;
+    background-color: white;
+
+}
+.custom-pad{
+    width:1.8rem;
+    height: 1.8rem;
+    background-color:yellowgreen;
+    justify-content: center;
+    display: block;
+    margin: 0.38rem;
+    border-radius: 3rem;
+}
+.custom-pad:hover{
+    background-color: yellow;
+}
